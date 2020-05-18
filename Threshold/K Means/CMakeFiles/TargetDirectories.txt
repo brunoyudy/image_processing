@@ -1,0 +1,3 @@
+/home/yudy/Desktop/Chapter_1/K Means/CMakeFiles/edit_cache.dir
+/home/yudy/Desktop/Chapter_1/K Means/CMakeFiles/rebuild_cache.dir
+/home/yudy/Desktop/Chapter_1/K Means/CMakeFiles/KMeans.dir

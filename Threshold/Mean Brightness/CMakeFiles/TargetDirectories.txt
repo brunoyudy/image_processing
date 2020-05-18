@@ -1,0 +1,3 @@
+/home/yudy/Desktop/Chapter_1/Mean Brightness/CMakeFiles/edit_cache.dir
+/home/yudy/Desktop/Chapter_1/Mean Brightness/CMakeFiles/rebuild_cache.dir
+/home/yudy/Desktop/Chapter_1/Mean Brightness/CMakeFiles/MeanBrightness.dir
