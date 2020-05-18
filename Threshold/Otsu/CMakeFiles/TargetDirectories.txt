@@ -1,0 +1,3 @@
+/home/yudy/Desktop/Image_processing/Threshold/Otsu/CMakeFiles/edit_cache.dir
+/home/yudy/Desktop/Image_processing/Threshold/Otsu/CMakeFiles/rebuild_cache.dir
+/home/yudy/Desktop/Image_processing/Threshold/Otsu/CMakeFiles/Otsu.dir
