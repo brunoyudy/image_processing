@@ -1,3 +1,3 @@
-/home/yudy/Desktop/Chapter_1/K Means/CMakeFiles/edit_cache.dir
-/home/yudy/Desktop/Chapter_1/K Means/CMakeFiles/rebuild_cache.dir
-/home/yudy/Desktop/Chapter_1/K Means/CMakeFiles/KMeans.dir
+/home/yudy/Desktop/Image_processing/Threshold/Untitled Folder/CMakeFiles/edit_cache.dir
+/home/yudy/Desktop/Image_processing/Threshold/Untitled Folder/CMakeFiles/rebuild_cache.dir
+/home/yudy/Desktop/Image_processing/Threshold/Untitled Folder/CMakeFiles/KMeans.dir

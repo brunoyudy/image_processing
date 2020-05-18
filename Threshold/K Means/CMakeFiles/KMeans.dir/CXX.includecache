@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/yudy/Desktop/Chapter_1/K Means/k_means.cpp
+/home/yudy/Desktop/Image_processing/Threshold/Untitled Folder/k_means.cpp
 opencv2/core/utility.hpp
 -
 opencv2/imgproc.hpp
-/home/yudy/Desktop/Chapter_1/K Means/opencv2/imgproc.hpp
+/home/yudy/Desktop/Image_processing/Threshold/Untitled Folder/opencv2/imgproc.hpp
 opencv2/imgcodecs.hpp
-/home/yudy/Desktop/Chapter_1/K Means/opencv2/imgcodecs.hpp
+/home/yudy/Desktop/Image_processing/Threshold/Untitled Folder/opencv2/imgcodecs.hpp
 opencv2/highgui.hpp
-/home/yudy/Desktop/Chapter_1/K Means/opencv2/highgui.hpp
+/home/yudy/Desktop/Image_processing/Threshold/Untitled Folder/opencv2/highgui.hpp
 iostream
 -
 stdio.h

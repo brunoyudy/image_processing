@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/yudy/Desktop/Chapter_1/K Means/k_means.cpp" "/home/yudy/Desktop/Chapter_1/K Means/CMakeFiles/KMeans.dir/k_means.cpp.o"
+  "/home/yudy/Desktop/Image_processing/Threshold/Untitled Folder/k_means.cpp" "/home/yudy/Desktop/Image_processing/Threshold/Untitled Folder/CMakeFiles/KMeans.dir/k_means.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
