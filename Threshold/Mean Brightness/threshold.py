@@ -4,28 +4,24 @@ from matplotlib import pyplot as plt
 
 
 def MeanThreshold(image):
-    print("ROWS: " , len(image))
-    print("COLUMNS: " ,len(image[0]))
-    pixels = len(image)*len(image[0])
+    pixels = len(image)*len(image[0]) #get the number of pixels
     soma = 0
+
     for rows in range(len(image)):
-        soma += sum(image[rows])
-    print(soma)
-    threshold = soma/pixels
-    print('Threshold: ',threshold)
-    ret, dst = cv2.threshold(image, threshold,255,cv2.THRESH_BINARY_INV)
+        soma += sum(image[rows]) #sum the pixel value over the entire image
+
+    threshold = soma/pixels #the mean of pixel values is set as the threshold
+    ret, dst = cv2.threshold(image, threshold,255,cv2.THRESH_BINARY) #applying the global threshold
     cv2.imshow("Threshold", dst)
     cv2.imshow("Original: ", image)
-    cv2.imwrite('MeanBrightnessPython2.png', dst)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
     return 0
 
-img = cv2.imread('tooth_displaced.png', 0)
 
+image = input("Enter the image: ")
+img = cv2.imread(image, 0)
 
-
-#print(sum(img[0]))
 MeanThreshold(img)
 
 
