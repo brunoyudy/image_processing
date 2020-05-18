@@ -12,20 +12,16 @@ int MeanBrightness( Mat image)
 {
   int nRows = image.rows;
   int nCols = image.cols;
-  int image_size = nRows * nCols;
+  int image_size = nRows * nCols; //number of pixels
   int soma;
-  int count = 0;
-  int num;
   for(int i = 0; i < image.rows; ++i)
   {
     for (int j = 0; j < image.cols; j++)
     {
-      soma += image.at<uchar>(i,j);
+      soma += image.at<uchar>(i,j); //getting the sum of all pixel values
     }
   }
-  /*std::cout << soma << std::endl;
-  std::cout << image_size << std::endl;*/
-  int value = soma/image_size;
+  int value = soma/image_size; //get the mean of pixel values
   return value;
 }
 
