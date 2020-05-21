@@ -1,0 +1,3 @@
+/home/yudy/Desktop/Image_processing/Threshold/Intermodes/CMakeFiles/edit_cache.dir
+/home/yudy/Desktop/Image_processing/Threshold/Intermodes/CMakeFiles/rebuild_cache.dir
+/home/yudy/Desktop/Image_processing/Threshold/Intermodes/CMakeFiles/Intermodes.dir
