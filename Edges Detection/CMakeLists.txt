@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( Edges )
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable( Edges edges.cpp)
+target_link_libraries( Edges ${OpenCV_LIBS} )
