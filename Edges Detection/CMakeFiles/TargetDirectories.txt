@@ -1,3 +1,3 @@
 /home/yudy/Desktop/Image_processing/Edges Detection/CMakeFiles/edit_cache.dir
 /home/yudy/Desktop/Image_processing/Edges Detection/CMakeFiles/rebuild_cache.dir
-/home/yudy/Desktop/Image_processing/Edges Detection/CMakeFiles/Edges.dir
+/home/yudy/Desktop/Image_processing/Edges Detection/CMakeFiles/1dEdges.dir

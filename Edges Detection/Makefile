@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Edges
+# Target rules for targets named 1dEdges
 
 # Build rule for target.
-Edges: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Edges
-.PHONY : Edges
+1dEdges: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 1dEdges
+.PHONY : 1dEdges
 
 # fast build rule for target.
-Edges/fast:
-	$(MAKE) -f CMakeFiles/Edges.dir/build.make CMakeFiles/Edges.dir/build
-.PHONY : Edges/fast
+1dEdges/fast:
+	$(MAKE) -f CMakeFiles/1dEdges.dir/build.make CMakeFiles/1dEdges.dir/build
+.PHONY : 1dEdges/fast
 
-edges.o: edges.cpp.o
+1d_edges.o: 1d_edges.cpp.o
 
-.PHONY : edges.o
+.PHONY : 1d_edges.o
 
 # target to build an object file
-edges.cpp.o:
-	$(MAKE) -f CMakeFiles/Edges.dir/build.make CMakeFiles/Edges.dir/edges.cpp.o
-.PHONY : edges.cpp.o
+1d_edges.cpp.o:
+	$(MAKE) -f CMakeFiles/1dEdges.dir/build.make CMakeFiles/1dEdges.dir/1d_edges.cpp.o
+.PHONY : 1d_edges.cpp.o
 
-edges.i: edges.cpp.i
+1d_edges.i: 1d_edges.cpp.i
 
-.PHONY : edges.i
+.PHONY : 1d_edges.i
 
 # target to preprocess a source file
-edges.cpp.i:
-	$(MAKE) -f CMakeFiles/Edges.dir/build.make CMakeFiles/Edges.dir/edges.cpp.i
-.PHONY : edges.cpp.i
+1d_edges.cpp.i:
+	$(MAKE) -f CMakeFiles/1dEdges.dir/build.make CMakeFiles/1dEdges.dir/1d_edges.cpp.i
+.PHONY : 1d_edges.cpp.i
 
-edges.s: edges.cpp.s
+1d_edges.s: 1d_edges.cpp.s
 
-.PHONY : edges.s
+.PHONY : 1d_edges.s
 
 # target to generate assembly for a file
-edges.cpp.s:
-	$(MAKE) -f CMakeFiles/Edges.dir/build.make CMakeFiles/Edges.dir/edges.cpp.s
-.PHONY : edges.cpp.s
+1d_edges.cpp.s:
+	$(MAKE) -f CMakeFiles/1dEdges.dir/build.make CMakeFiles/1dEdges.dir/1d_edges.cpp.s
+.PHONY : 1d_edges.cpp.s
 
 # Help Target
 help:
@@ -158,10 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Edges"
-	@echo "... edges.o"
-	@echo "... edges.i"
-	@echo "... edges.s"
+	@echo "... 1dEdges"
+	@echo "... 1d_edges.o"
+	@echo "... 1d_edges.i"
+	@echo "... 1d_edges.s"
 .PHONY : help
 
 

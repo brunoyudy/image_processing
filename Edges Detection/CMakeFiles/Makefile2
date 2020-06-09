@@ -60,39 +60,39 @@ CMAKE_SOURCE_DIR = "/home/yudy/Desktop/Image_processing/Edges Detection"
 CMAKE_BINARY_DIR = "/home/yudy/Desktop/Image_processing/Edges Detection"
 
 #=============================================================================
-# Target rules for target CMakeFiles/Edges.dir
+# Target rules for target CMakeFiles/1dEdges.dir
 
 # All Build rule for target.
-CMakeFiles/Edges.dir/all:
-	$(MAKE) -f CMakeFiles/Edges.dir/build.make CMakeFiles/Edges.dir/depend
-	$(MAKE) -f CMakeFiles/Edges.dir/build.make CMakeFiles/Edges.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/yudy/Desktop/Image_processing/Edges Detection/CMakeFiles" --progress-num=1,2 "Built target Edges"
-.PHONY : CMakeFiles/Edges.dir/all
+CMakeFiles/1dEdges.dir/all:
+	$(MAKE) -f CMakeFiles/1dEdges.dir/build.make CMakeFiles/1dEdges.dir/depend
+	$(MAKE) -f CMakeFiles/1dEdges.dir/build.make CMakeFiles/1dEdges.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/yudy/Desktop/Image_processing/Edges Detection/CMakeFiles" --progress-num=1,2 "Built target 1dEdges"
+.PHONY : CMakeFiles/1dEdges.dir/all
 
 # Include target in all.
-all: CMakeFiles/Edges.dir/all
+all: CMakeFiles/1dEdges.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Edges.dir/rule: cmake_check_build_system
+CMakeFiles/1dEdges.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/yudy/Desktop/Image_processing/Edges Detection/CMakeFiles" 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Edges.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1dEdges.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/yudy/Desktop/Image_processing/Edges Detection/CMakeFiles" 0
-.PHONY : CMakeFiles/Edges.dir/rule
+.PHONY : CMakeFiles/1dEdges.dir/rule
 
 # Convenience name for target.
-Edges: CMakeFiles/Edges.dir/rule
+1dEdges: CMakeFiles/1dEdges.dir/rule
 
-.PHONY : Edges
-
-# clean rule for target.
-CMakeFiles/Edges.dir/clean:
-	$(MAKE) -f CMakeFiles/Edges.dir/build.make CMakeFiles/Edges.dir/clean
-.PHONY : CMakeFiles/Edges.dir/clean
+.PHONY : 1dEdges
 
 # clean rule for target.
-clean: CMakeFiles/Edges.dir/clean
+CMakeFiles/1dEdges.dir/clean:
+	$(MAKE) -f CMakeFiles/1dEdges.dir/build.make CMakeFiles/1dEdges.dir/clean
+.PHONY : CMakeFiles/1dEdges.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/1dEdges.dir/clean
 
 .PHONY : clean
 

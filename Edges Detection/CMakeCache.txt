@@ -14,6 +14,12 @@
 # EXTERNAL cache entries
 ########################
 
+//Value Computed by CMake
+1dEdges_BINARY_DIR:STATIC=/home/yudy/Desktop/Image_processing/Edges Detection
+
+//Value Computed by CMake
+1dEdges_SOURCE_DIR:STATIC=/home/yudy/Desktop/Image_processing/Edges Detection
+
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
 
@@ -114,7 +120,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Edges
+CMAKE_PROJECT_NAME:STATIC=1dEdges
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -164,12 +170,6 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 // during the make.  This is useful for debugging only. With Visual
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
-
-//Value Computed by CMake
-Edges_BINARY_DIR:STATIC=/home/yudy/Desktop/Image_processing/Edges Detection
-
-//Value Computed by CMake
-Edges_SOURCE_DIR:STATIC=/home/yudy/Desktop/Image_processing/Edges Detection
 
 //The directory containing a CMake configuration file for OpenCV.
 OpenCV_DIR:PATH=/usr/local/lib/cmake/opencv4
